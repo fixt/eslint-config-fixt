@@ -91,8 +91,9 @@ module.exports = {
     "no-shadow": 2,                   // disallow declaration of variables already declared in the outer scope
     "no-shadow-restricted-names": 2,  // disallow shadowing of names such as arguments
     "no-undef": 2,                    // disallow use of undeclared variables unless mentioned in a /*global */ block
-    // eventually switch this to 2, need to account for using spread for shallow copying
-    "no-unused-vars": [0, {"vars": "all", "args": "none"}],              // disallow declaration of variables that are not used in the code
+
+    //https://github.com/babel/babel-eslint/issues/95 may be relevant
+    "no-unused-vars": [2, {"vars": "all", "args": "none"}],  // disallow declaration of variables that are not used in the code
 
     ////////// Node.js //////////
 
