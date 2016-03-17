@@ -1,6 +1,8 @@
 module.exports = {
   // http://eslint.org/docs/rules/
 
+  "parser": "babel-eslint",
+
   "plugins": [
     "react"
   ],
@@ -19,6 +21,7 @@ module.exports = {
     "sourceType": "module",
     "ecmaFeatures": {
       "blockBindings": true,                      // enable let and const (aka block bindings)
+      "modules": true,
       "defaultParams": true,                      // enable default function parameters
       "templateStrings": true,                    // enable template strings
       "jsx": true,                                // enable JSX
