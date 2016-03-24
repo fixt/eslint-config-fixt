@@ -32,6 +32,7 @@ module.exports = {
   "env": {
     "node": true,         // Node.js global variables and Node.js-specific rules.
     "es6": true,
+    "mocha": true
   },
 
   "rules": {
