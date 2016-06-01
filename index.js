@@ -84,6 +84,10 @@ module.exports = {
     "no-self-compare": 2,       // disallow comparisons where both sides are exactly the same (off by default)
     "no-void": 2,               // disallow use of void operator (off by default)
     "no-with": 2,               // disallow use of the with statement
+    // disallow the use of Boolean literals in conditional expressions
+    // also, prefer `a || b` over `a ? a : b`
+    "no-unneeded-ternary": [2, { defaultAssignment: false }],
+    "no-nested-ternary": 2      // disallow use of nested ternaries
     "radix": 2,                 // require use of the second argument for parseInt() (off by default)
     "semi-spacing": 2,          // require a space after a semi-colon
     "yoda": 2,                  // require or disallow Yoda conditions
