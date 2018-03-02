@@ -118,8 +118,6 @@ module.exports = {
     "camelcase": 0,                 // require camel case names
     "comma-spacing": [2, {"before": false, "after": true}],
                                     // enforce spacing before and after comma
-    "comma-style": [2, "last"],     // enforce one true comma style (off by default)
-    "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
                                     // enforces spacing between keys and values in object literal properties
     "no-trailing-spaces": 2,        // disallow trailing whitespace at the end of lines
 
@@ -130,11 +128,6 @@ module.exports = {
     "new-parens": 2,                // enforce parentheses when invoking a constructor with no arguments
     "no-lonely-if": 2,              // disallow if as the only statement in an else block
     "no-new-object": 2,             // disallow use of the Object constructor
-    "no-spaced-func": 2,            // disallow space between function identifier and application
-    "quotes": [2, "single", "avoid-escape"],
-                                    // specify whether double or single quotes should be used
-    "semi": 2,                      // require or disallow use of semicolons instead of ASI
-    "jsx-quotes": [1, "prefer-double"],
 
     "react/jsx-no-undef": 2,
     "react/jsx-sort-props": 2,
@@ -152,5 +145,8 @@ module.exports = {
     "react/jsx-equals-spacing": [2, "never"],
     "react/jsx-indent": [2, 2],
     "react/jsx-no-duplicate-props": [2, { "ignoreCase": true }],
+
+    // handles all code styling rules
+    "prettier/prettier": "error"
   }
 }
