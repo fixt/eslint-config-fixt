@@ -1,10 +1,17 @@
 module.exports = {
   // http://eslint.org/docs/rules/
 
+  "extends": [
+    "plugin:prettier/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+
   "parser": "babel-eslint",
 
   "plugins": [
-    "react"
+    "react",
+    "prettier"    
   ],
 
   "globals": {
