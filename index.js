@@ -109,21 +109,11 @@ module.exports = {
     "handle-callback-err": 2,   // enforces error handling in callbacks (off by default) (on by default in the node environment)
     "no-process-exit": 2,       // disallow process.exit() (on by default in the node environment)
 
-    ////////// Stylistic Issues //////////
-
-    "array-bracket-spacing": [2, "never"],
-    "block-spacing": [2, "always"],
-    "brace-style": [2, "1tbs", { "allowSingleLine": true }], // enforce one true brace style (off by default)
     // Implement this eventually, it's a problem at the moment for mobile
     "camelcase": 0,                 // require camel case names
-    "comma-spacing": [2, {"before": false, "after": true}],
-                                    // enforce spacing before and after comma
-                                    // enforces spacing between keys and values in object literal properties
-    "no-trailing-spaces": 2,        // disallow trailing whitespace at the end of lines
 
     "prefer-arrow-callback": 2,
     "no-const-assign": 2,
-    "object-curly-spacing": [2, "always"],
     "eol-last": 2,                  // enforce newline at the end of file, with no multiple empty lines
     "new-parens": 2,                // enforce parentheses when invoking a constructor with no arguments
     "no-lonely-if": 2,              // disallow if as the only statement in an else block
@@ -136,14 +126,6 @@ module.exports = {
     "react/no-did-mount-set-state": [2, "allow-in-func"],
     "react/no-did-update-set-state": [2, "allow-in-func"],
     "react/self-closing-comp": 2,
-    "react/jsx-closing-bracket-location": [2, {
-      "nonEmpty": "tag-aligned",
-      "selfClosing": "tag-aligned"
-    }],
-    "react/jsx-curly-spacing": [2, "always"],
-    "react/jsx-indent-props": [2, 2],
-    "react/jsx-equals-spacing": [2, "never"],
-    "react/jsx-indent": [2, 2],
     "react/jsx-no-duplicate-props": [2, { "ignoreCase": true }],
 
     // handles all code styling rules
