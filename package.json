@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/fixt/eslint-config-fixt#readme",
   "dependencies": {
+    "eslint": "^4.18.2",
     "babel-eslint": "^8.2.2",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
