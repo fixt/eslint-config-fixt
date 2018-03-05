@@ -129,7 +129,7 @@ module.exports = {
     "react/jsx-no-duplicate-props": [2, { "ignoreCase": true }],
 
     // handles all code styling rules
-    "prettier/prettier": ["error", {
+    "prettier/prettier": [2, {
       "tabWidth": 2,
       "singleQuote": true,
       "semi": true,
