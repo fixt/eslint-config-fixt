@@ -3,6 +3,9 @@ module.exports = {
 
   "extends": [
     "plugin:prettier/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",    
+    "eslint:recommended",    
     "prettier",
     "prettier/react"
   ],
@@ -11,9 +14,6 @@ module.exports = {
 
   "plugins": [
     "prettier",
-    "eslint:recommended",
-    "plugin:jsx-a11y/recommended",
-    "plugin:react/recommended"
   ],
 
   "globals": {
