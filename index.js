@@ -10,8 +10,10 @@ module.exports = {
   "parser": "babel-eslint",
 
   "plugins": [
-    "react",
-    "prettier"    
+    "prettier",
+    "eslint:recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended"
   ],
 
   "globals": {
