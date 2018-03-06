@@ -44,6 +44,7 @@ module.exports = {
   },
 
   "rules": {
+    "array-callback-return": 2,   // enforce return statements in callbacks of array methods
     "no-cond-assign": 2,          // disallow assignment in conditional expressions
     "no-dupe-keys": 2,            // disallow duplicate keys when creating object literals
     "no-extra-semi": 2,           // disallow unnecessary semicolons
@@ -59,10 +60,13 @@ module.exports = {
     "no-invalid-regexp": 2,       // disallow invalid regular expression strings in the RegExp constructor
     "no-obj-calls": 2,            // disallow the use of object properties of the global object (Math and JSON) as functions
     "no-sparse-arrays": 2,        // disallow sparse arrays
+    "no-unused-expressions": 2,   // An unused expression which has no effect on the state of the program indicates a logic error.
+
 
     ////////// Best Practices //////////
 
     "curly": 2,                 // specify curly brace conventions for all control statements
+    "default-case": 2,          // Require Default Case in Switch Statements
     "dot-notation": 2,          // encourages use of dot notation whenever possible
     "eqeqeq": 2,                // require the use of === and !==
     "no-alert": 2,              // disallow the use of alert, confirm, and prompt
@@ -89,6 +93,8 @@ module.exports = {
     "no-proto": 2,              // disallow usage of __proto__ property
     "no-script-url": 2,         // disallow use of javascript: urls.
     "no-self-compare": 2,       // disallow comparisons where both sides are exactly the same (off by default)
+    "no-throw-literal": 2,      // no-throw-literal
+    "no-useless-escape": 2,     // disallow unnecessary escape characters
     "no-void": 2,               // disallow use of void operator (off by default)
     "no-with": 2,               // disallow use of the with statement
     "radix": 2,                 // require use of the second argument for parseInt() (off by default)
@@ -119,6 +125,7 @@ module.exports = {
     "no-lonely-if": 2,              // disallow if as the only statement in an else block
     "no-new-object": 2,             // disallow use of the Object constructor
 
+    "react/jsx-a11y/alt-text": 2,
     "react/jsx-no-undef": 2,
     "react/jsx-sort-props": 2,
     "react/jsx-uses-react": 2,
