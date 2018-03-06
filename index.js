@@ -125,7 +125,6 @@ module.exports = {
     "no-lonely-if": 2,              // disallow if as the only statement in an else block
     "no-new-object": 2,             // disallow use of the Object constructor
 
-    "react/jsx-a11y/alt-text": 2,
     "react/jsx-no-undef": 2,
     "react/jsx-sort-props": 2,
     "react/jsx-uses-react": 2,
@@ -134,6 +133,8 @@ module.exports = {
     "react/no-did-update-set-state": 2,
     "react/self-closing-comp": 2,
     "react/jsx-no-duplicate-props": [2, { "ignoreCase": true }],
+
+    "jsx-a11y/alt-text": 2,    
 
     // handles all code styling rules
     "prettier/prettier": [2, {
