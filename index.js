@@ -114,6 +114,7 @@ module.exports = {
     'react/jsx-no-duplicate-props': [2, { ignoreCase: true }],
     'react/prop-types': 0, // eslint:recommended maybe look into turning this on in the future?
     'react/display-name': 0, // eslint:recommended
+    'react/jsx-curly-spacing': [2, { "when": "always" , "children": true }],
 
     'jsx-a11y/alt-text': 2,
 
