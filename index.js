@@ -124,7 +124,7 @@ module.exports = {
         tabWidth: 2,
         singleQuote: true,
         semi: true,
-        trailingComma: 'all',
+        trailingComma: 'es5',
         bracketSpacing: true,
         jsxBracketSameLine: true,
       },
