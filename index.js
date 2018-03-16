@@ -123,6 +123,7 @@ module.exports = {
       2,
       {
         tabWidth: 2,
+        tabs: false,
         singleQuote: true,
         semi: true,
         trailingComma: 'es5',
